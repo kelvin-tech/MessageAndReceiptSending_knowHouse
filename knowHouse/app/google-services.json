@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "128197632264",
+    "firebase_url": "https://hstcht-ee1f5.firebaseio.com",
+    "project_id": "hstcht-ee1f5",
+    "storage_bucket": "hstcht-ee1f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128197632264:android:df92f4dd090ebc32448cbd",
+        "android_client_info": {
+          "package_name": "com.hackscience_tech.blindchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128197632264-tbp8csmtfu6p0bb8qav21k3odnjkg98p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackscience_tech.knowHouse",
+            "certificate_hash": "44dc16b941bba9c53d057a7b545ec305fc170b57"
+          }
+        },
+        {
+          "client_id": "128197632264-558agumfr20411lgen1vc6d997q3vkjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-SQlmOlUAvPN5ML4i9bd76iiwTZu6M44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128197632264-558agumfr20411lgen1vc6d997q3vkjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

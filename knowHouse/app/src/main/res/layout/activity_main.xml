@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:forceDarkAllowed="false"
+    android:orientation="vertical"
+    tools:context="com.hackscience_tech.knowHouse.LoginActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+      android:id="@+id/ccp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="96dp"
+
+    android:layout_centerHorizontal="true"
+    app:ccp_defaultNameCode="GH"
+    />
+
+
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        android:textColor="#fff"
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_action_phone_number"
+
+        android:ems="10"
+        android:forceDarkAllowed="false"
+        android:hint="PhoneNumber"
+
+        android:inputType="number"
+        android:textColorHint="#9AFBFBFB"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/phoneNumber"
+        android:layout_alignLeft="@id/phoneNumber"
+        android:layout_alignRight="@id/phoneNumber"
+        android:layout_marginTop="38dp"
+        android:background="#11000000"
+        android:drawableStart="@drawable/ic_action_code"
+        android:ems="10"
+        android:hint="Code"
+        android:inputType="number"
+        android:textColor="#fff"
+        android:textColorHint="#9AFBFBFB" />
+    <!--
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyle"
+        android:visibility="invisible"
+        android:layout_above="@id/cardView"
+        android:layout_below="@id/code"
+        android:layout_alignStart="@id/cardView"
+        android:layout_marginTop="32dp"
+
+        /> -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:id="@+id/cardView"
+        android:layout_height="50dp"
+        android:layout_below="@id/code"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="68dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/send"
+                android:text="Send Verification code"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#fff"
+                android:layout_centerInParent="true"/>
+
+            <com.hackscience_tech.knowHouse.Utils.PlayGifView
+                android:id="@+id/viewGif"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="32dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+
+</ScrollView>
