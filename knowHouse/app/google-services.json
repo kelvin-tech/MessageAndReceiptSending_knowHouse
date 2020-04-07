@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "128197632264",
-    "firebase_url": "https://hstcht-ee1f5.firebaseio.com",
-    "project_id": "hstcht-ee1f5",
-    "storage_bucket": "hstcht-ee1f5.appspot.com"
+    "project_number": "340518072052",
+    "firebase_url": "https://knowhouse-ca5a1.firebaseio.com",
+    "project_id": "knowhouse-ca5a1",
+    "storage_bucket": "knowhouse-ca5a1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:128197632264:android:df92f4dd090ebc32448cbd",
+        "mobilesdk_app_id": "1:340518072052:android:6b747ffde90983291738a1",
         "android_client_info": {
-          "package_name": "com.hackscience_tech.blindchat"
+          "package_name": "com.hackscience_tech.knowHouse"
         }
       },
       "oauth_client": [
         {
-          "client_id": "128197632264-tbp8csmtfu6p0bb8qav21k3odnjkg98p.apps.googleusercontent.com",
+          "client_id": "340518072052-dp8k80foisqe1aghl78necsngc5f5pli.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.hackscience_tech.knowHouse",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "128197632264-558agumfr20411lgen1vc6d997q3vkjd.apps.googleusercontent.com",
+          "client_id": "340518072052-nc4vo6on01kq8apqm9a8fb2mpramec5u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB-SQlmOlUAvPN5ML4i9bd76iiwTZu6M44"
+          "current_key": "AIzaSyCPI9VfAY26KAcXhY1xR5D4Lqu0YRmhHUM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "128197632264-558agumfr20411lgen1vc6d997q3vkjd.apps.googleusercontent.com",
+              "client_id": "340518072052-nc4vo6on01kq8apqm9a8fb2mpramec5u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
