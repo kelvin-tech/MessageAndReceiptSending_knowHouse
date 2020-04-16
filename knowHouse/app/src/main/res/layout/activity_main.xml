@@ -8,7 +8,7 @@
     android:background="@drawable/gradient"
     android:forceDarkAllowed="false"
     android:orientation="vertical"
-    tools:context="com.hackscience_tech.knowHouse.LoginActivity">
+    tools:context="com.knowhouse.thereceiptbook.LoginActivity">
 
 <RelativeLayout
     android:layout_width="match_parent"
@@ -98,7 +98,7 @@
                 android:textColor="#fff"
                 android:layout_centerInParent="true"/>
 
-            <com.hackscience_tech.knowHouse.Utils.PlayGifView
+            <com.knowhouse.thereceiptbook.Utils.PlayGifView
                 android:id="@+id/viewGif"
                 android:layout_width="50dp"
                 android:layout_height="50dp"

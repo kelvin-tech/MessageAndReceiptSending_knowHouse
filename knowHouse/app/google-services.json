@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "340518072052",
-    "firebase_url": "https://knowhouse-ca5a1.firebaseio.com",
-    "project_id": "knowhouse-ca5a1",
-    "storage_bucket": "knowhouse-ca5a1.appspot.com"
+    "project_number": "1094330715811",
+    "firebase_url": "https://thereceiptbook.firebaseio.com",
+    "project_id": "thereceiptbook",
+    "storage_bucket": "thereceiptbook.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:340518072052:android:6b747ffde90983291738a1",
+        "mobilesdk_app_id": "1:1094330715811:android:c8375e2457aad6227db916",
         "android_client_info": {
-          "package_name": "com.hackscience_tech.knowHouse"
+          "package_name": "com.knowhouse.thereceiptbook"
         }
       },
       "oauth_client": [
         {
-          "client_id": "340518072052-dp8k80foisqe1aghl78necsngc5f5pli.apps.googleusercontent.com",
+          "client_id": "1094330715811-s98opbicc58hfi5bsdk9vdtdlq46jnd3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.hackscience_tech.knowHouse",
-            "certificate_hash": "44dc16b941bba9c53d057a7b545ec305fc170b57"
+            "package_name": "com.knowhouse.thereceiptbook",
+            "certificate_hash": "090caab6cb655364ced2693f56ee5e8e1e147909"
           }
         },
         {
-          "client_id": "340518072052-nc4vo6on01kq8apqm9a8fb2mpramec5u.apps.googleusercontent.com",
+          "client_id": "1094330715811-j8rk9alo9tssnd9qc2hg9u8rln3ajh91.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCPI9VfAY26KAcXhY1xR5D4Lqu0YRmhHUM"
+          "current_key": "AIzaSyAkhMaMJ3ZJRoaGcHSmjQNo4iPglwP0320"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "340518072052-nc4vo6on01kq8apqm9a8fb2mpramec5u.apps.googleusercontent.com",
+              "client_id": "1094330715811-j8rk9alo9tssnd9qc2hg9u8rln3ajh91.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hackscience_tech.knowHouse">
+    package="com.knowhouse.thereceiptbook">
 
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.WRITE_CONTACTS" />
@@ -13,16 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.hackscience_tech.knowHouse.LoginActivity">
+        <activity android:name="com.knowhouse.thereceiptbook.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hackscience_tech.knowHouse.MainPageActivity" />
-        <activity android:name="com.hackscience_tech.knowHouse.FindUserActivity" />
-        <activity android:name="com.hackscience_tech.knowHouse.ChatActivity" />
+        <activity android:name="com.knowhouse.thereceiptbook.MainPageActivity" />
+        <activity android:name="com.knowhouse.thereceiptbook.FindUserActivity" />
+        <activity android:name="com.knowhouse.thereceiptbook.ChatActivity" />
     </application>
 
 </manifest>

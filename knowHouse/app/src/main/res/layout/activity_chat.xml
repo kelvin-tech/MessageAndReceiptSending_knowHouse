@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
 
-    tools:context="com.hackscience_tech.knowHouse.ChatActivity">
+    tools:context="com.knowhouse.thereceiptbook.ChatActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

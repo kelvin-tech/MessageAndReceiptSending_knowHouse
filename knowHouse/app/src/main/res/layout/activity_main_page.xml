@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context="com.hackscience_tech.knowHouse.MainPageActivity"
+    tools:context="com.knowhouse.thereceiptbook.MainPageActivity"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
